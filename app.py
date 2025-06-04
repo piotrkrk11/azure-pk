@@ -27,12 +27,6 @@ def home():
             </a>
         </li>
         <li>
-            <a href="https://www.youtube.com/watch?v=0RCbYgSsn5I" target="_blank" style="text-decoration:none; color:#fff;">
-                <img src="https://img.youtube.com/vi/0RCbYgSsn5I/0.jpg" alt="GitHub Copilot: Is it worth it?" width="220" style="border-radius:12px; box-shadow:0 4px 16px #0006;"><br>
-                <b>GitHub Copilot: Is it worth it?</b>
-            </a>
-        </li>
-        <li>
             <a href="https://www.youtube.com/watch?v=8yLlwITMRDE" target="_blank" style="text-decoration:none; color:#fff;">
                 <img src="https://img.youtube.com/vi/8yLlwITMRDE/0.jpg" alt="GitHub Copilot - AI Code Completion" width="220" style="border-radius:12px; box-shadow:0 4px 16px #0006;"><br>
                 <b>GitHub Copilot - AI Code Completion</b>
@@ -42,6 +36,12 @@ def home():
             <a href="https://www.youtube.com/watch?v=3XzLwmI3-1M" target="_blank" style="text-decoration:none; color:#fff;">
                 <img src="https://img.youtube.com/vi/3XzLwmI3-1M/0.jpg" alt="GitHub Copilot: Productivity Boost or Security Risk?" width="220" style="border-radius:12px; box-shadow:0 4px 16px #0006;"><br>
                 <b>GitHub Copilot: Productivity Boost or Security Risk?</b>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=2ay6_PzqH8w" target="_blank" style="text-decoration:none; color:#fff;">
+                <img src="https://img.youtube.com/vi/2ay6_PzqH8w/0.jpg" alt="GitHub Copilot X: The Next Generation of AI Pair Programming" width="220" style="border-radius:12px; box-shadow:0 4px 16px #0006;"><br>
+                <b>GitHub Copilot X: The Next Generation of AI Pair Programming</b>
             </a>
         </li>
     </ul>
@@ -64,9 +64,9 @@ def copilot_videos():
     <ul>
         <li><a href="https://www.youtube.com/watch?v=SGUCcjHTmGY" target="_blank">GitHub Copilot: Your AI Pair Programmer</a></li>
         <li><a href="https://www.youtube.com/watch?v=4KqUvG8HPYo" target="_blank">How to use GitHub Copilot - Full Demo</a></li>
-        <li><a href="https://www.youtube.com/watch?v=0RCbYgSsn5I" target="_blank">GitHub Copilot: Is it worth it?</a></li>
         <li><a href="https://www.youtube.com/watch?v=8yLlwITMRDE" target="_blank">GitHub Copilot - AI Code Completion</a></li>
         <li><a href="https://www.youtube.com/watch?v=3XzLwmI3-1M" target="_blank">GitHub Copilot: Productivity Boost or Security Risk?</a></li>
+        <li><a href="https://www.youtube.com/watch?v=2ay6_PzqH8w" target="_blank">GitHub Copilot X: The Next Generation of AI Pair Programming</a></li>
     </ul>
     """
 
