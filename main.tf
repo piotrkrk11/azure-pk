@@ -8,7 +8,7 @@ terraform {
 }
 provider "azurerm" {
   features {}
-  resource_provider_registration = "none"
+  resource_provider_registrations = "none"
 }
 
 terraform {
