@@ -12,8 +12,13 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
+<<<<<<< HEAD
     resource_group_name  = "example-resources" #change here
     storage_account_name = "tfstorage123dominik" #change here
+=======
+    resource_group_name  = "rg-PiotrK" #change here
+    storage_account_name = "PiotrK" #change here
+>>>>>>> 06305f0 (main and deploy)
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
@@ -22,7 +27,11 @@ terraform {
 resource "azurerm_service_plan" "example" {
   name                = "example-app-service-plan" #change here
   location            = "westeurope" #change here
+<<<<<<< HEAD
   resource_group_name = "example-resources" #change here
+=======
+  resource_group_name = "rg-PiotrK" #change here
+>>>>>>> 06305f0 (main and deploy)
   os_type             = "Linux"
   sku_name            = "P0v3"
 }
