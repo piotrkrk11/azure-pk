@@ -14,14 +14,14 @@ provider "azurerm" {
 terraform {
   backend "azurerm" {
     resource_group_name  = "rg-PiotrK"
-    storage_account_name = "PiotrK"
+    storage_account_name = "stpiotrk"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
 }
 
 resource "azurerm_service_plan" "example" {
-  name                = "example-app-service-plan"
+  name                = "piotr-app-service-plan11"
   location            = "westeurope"
   resource_group_name = "rg-PiotrK"
   os_type             = "Linux"
@@ -30,9 +30,9 @@ resource "azurerm_service_plan" "example" {
 
 
 resource "azurerm_linux_web_app" "example" {
-  name                = "example-webapp-123123i95u8fhwfdsewdwsa"
+  name                = "piotr-webapp-t2s-123"
   location            = "westeurope"
-  resource_group_name = "example-resources"
+  resource_group_name = "rg-PiotrK"
   service_plan_id     = azurerm_service_plan.example.id
   site_config {}
 }

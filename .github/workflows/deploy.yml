@@ -70,7 +70,7 @@ jobs:
       - name: Apply Terraform Changes
         shell: 'pwsh'
         run: terraform apply -auto-approve
-        
+
   update-app-service:
     name: Update App Service with Latest Image
     runs-on: ubuntu-latest
@@ -87,7 +87,7 @@ jobs:
       - name: Update App Service
         run: |
           az webapp config container set \
-            --name example-webapp-123123i95u8fhwfdsewdwsa \
-            --resource-group example-resources \
+            --name piotr-webapp-t2s-123 \
+            --resource-group rg-PiotrK \
             --docker-custom-image-name ${{ secrets.ACR_LOGIN_SERVER }}/example-webapp:latest \
             --docker-registry-server-url https://${{ secrets.ACR_LOGIN_SERVER }}
